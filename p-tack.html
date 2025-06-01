@@ -1,0 +1,304 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Unit I Learning Plan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .day-section {
+      margin-top: 20px;
+      background: #ecf0f1;
+      padding: 15px;
+      border-left: 5px solid #2980b9;
+      border-radius: 5px;
+    }
+    .time-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .time-table th, .time-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .time-table th {
+      background-color: #3498db;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Java Unit I: Object-Oriented Programming Concepts</h1>
+
+    <h2>🕒 Ideal Daily Study Time</h2>
+    <ul>
+      <li><strong>Basic Learning:</strong> 1.5 hours/day</li>
+      <li><strong>With Practice Projects:</strong> 2–2.5 hours/day</li>
+      <li><strong>Revision:</strong> 45 mins – 1 hour</li>
+    </ul>
+
+    <table class="time-table">
+      <tr>
+        <th>Activity</th>
+        <th>Time</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>Theory + Notes</td>
+        <td>30–40 mins</td>
+        <td>Read about Encapsulation, Inheritance, etc.</td>
+      </tr>
+      <tr>
+        <td>Hands-on Coding</td>
+        <td>40–50 mins</td>
+        <td>Write class examples, run them</td>
+      </tr>
+      <tr>
+        <td>Revision/Quiz</td>
+        <td>10–15 mins</td>
+        <td>Quick recap or small MCQs</td>
+      </tr>
+    </table>
+
+    <div class="day-section">
+      <h2>📅 Day 1: Intro + OOP vs Procedural</h2>
+      <ul>
+        <li>Understand what OOP is</li>
+        <li>Compare with procedural programming</li>
+        <li>Write a basic Hello World class in Java</li>
+      </ul>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 2: Class, Object, Encapsulation, Abstraction</h2>
+      <ul>
+        <li>Learn class structure and object creation</li>
+        <li>Encapsulation (private data + public methods)</li>
+        <li>Abstraction: focus on essential features only</li>
+      </ul>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 3: Inheritance, Polymorphism, Data Hiding</h2>
+      <ul>
+        <li>Understand and implement inheritance</li>
+        <li>Polymorphism with method overriding</li>
+        <li>Data hiding using private access modifier</li>
+      </ul>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 4: Practice + Design</h2>
+      <ul>
+        <li>Revise all key concepts</li>
+        <li>Mini project: Library, Bank, or Student System</li>
+        <li>Understand how OOP fits real-world modeling</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Unit I Learning Plan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      line-height: 1.6;
+      padding-left: 20px;
+    }
+    .day-section {
+      margin-top: 20px;
+      background: #ecf0f1;
+      padding: 15px;
+      border-left: 5px solid #2980b9;
+      border-radius: 5px;
+    }
+    .time-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .time-table th, .time-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .time-table th {
+      background-color: #3498db;
+      color: white;
+    }
+    .accordion {
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      text-align: left;
+      outline: none;
+      border: none;
+      background-color: #bdc3c7;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .panel {
+      display: none;
+      padding: 10px;
+      background-color: #ecf0f1;
+      border-radius: 5px;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      .time-table th, .time-table td {
+        font-size: 14px;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Java Unit I: Object-Oriented Programming Concepts</h1>
+
+    <h2>🕒 Ideal Daily Study Time</h2>
+    <ul>
+      <li><strong>Basic Learning:</strong> 1.5 hours/day</li>
+      <li><strong>With Practice Projects:</strong> 2–2.5 hours/day</li>
+      <li><strong>Revision:</strong> 45 mins – 1 hour</li>
+    </ul>
+
+    <table class="time-table">
+      <tr>
+        <th>Activity</th>
+        <th>Time</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>Theory + Notes</td>
+        <td>30–40 mins</td>
+        <td>Read about Encapsulation, Inheritance, etc.</td>
+      </tr>
+      <tr>
+        <td>Hands-on Coding</td>
+        <td>40–50 mins</td>
+        <td>Write class examples, run them</td>
+      </tr>
+      <tr>
+        <td>Revision/Quiz</td>
+        <td>10–15 mins</td>
+        <td>Quick recap or small MCQs</td>
+      </tr>
+    </table>
+
+    <div class="day-section">
+      <h2>📅 Day 1: Intro + OOP vs Procedural</h2>
+      <ul>
+        <li>What is Object-Oriented Programming (OOP)?</li>
+        <li>Difference between OOP and Procedural Programming</li>
+        <li>Benefits of OOP</li>
+        <li>Structure of a Java Program</li>
+        <li>Writing and compiling a basic Hello World program</li>
+      </ul>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 2: Class, Object, Encapsulation, Abstraction</h2>
+      <button class="accordion">Show Subtopics</button>
+      <div class="panel">
+        <ul>
+          <li>Defining a class and creating objects</li>
+          <li>Fields, Methods, Constructors</li>
+          <li>Encapsulation: Access modifiers (private, public)</li>
+          <li>Getters and Setters</li>
+          <li>Abstraction: Hiding internal implementation</li>
+          <li>Abstract classes and interfaces (intro)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 3: Inheritance, Polymorphism, Data Hiding</h2>
+      <button class="accordion">Show Subtopics</button>
+      <div class="panel">
+        <ul>
+          <li>Inheritance: extends keyword</li>
+          <li>Method Overriding</li>
+          <li>Polymorphism: Compile-time & Run-time</li>
+          <li>Use of super keyword</li>
+          <li>Data Hiding using private members</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="day-section">
+      <h2>📅 Day 4: Practice + Design</h2>
+      <button class="accordion">Show Subtopics</button>
+      <div class="panel">
+        <ul>
+          <li>Review all concepts from previous days</li>
+          <li>Design a simple mini project using OOP</li>
+          <li>Examples: Bank Account, Student Records, Library System</li>
+          <li>Write class diagrams if possible</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion');
+    accordions.forEach(btn => {
+      btn.addEventListener('click', function () {
+        this.classList.toggle('active');
+        const panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
